@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-background-base: hsl(0, 0%, 0%);
+  --dark-background-surface: hsl(210, 13%, 12%);
+
+  --dark-text-primary: hsla(0, 0%, 100%, 0.9);
+  --dark-text-secondary: hsla(0, 0%, 100%, 0.6);
+
+  --dark-accent-primary: #71b7fb;
+  --dark-accent-primary-hover: #aad6ff;
+
+  --dark-accent-base-hover: rgba(55, 143, 233, 0.15);
+  --dark-accent-surface: hsla(210, 80%, 56%, 0.25);
+  --dark-accent-surface-hover: hsla(210, 80%, 56%, 0.35);
+
+  --dark-notification: #cb112d;
+}
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+}
