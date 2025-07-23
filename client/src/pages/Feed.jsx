@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 function Feed() {
   return (
     <>
-      <Navbar />
+      <Navbar select={0} />
     </>
   );
 }
